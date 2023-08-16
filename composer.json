@@ -1,0 +1,22 @@
+{
+    "name": "paulinhoajr/boletos",
+    "description": "Modulo de pagamentos com boletos",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Paulinhoajr\\Boletos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Paulo Rodrigues",
+            "email": "paulinhoajrodrigues@gmail.com"
+        },
+        {
+            "name": "Paulo Junior",
+            "email": "pejotinhas@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
