@@ -81,7 +81,7 @@ abstract class AbstractRetorno implements \Countable, \SeekableIterator
             throw new \Exception("Arquivo: não existe");
         }
 
-        $r = new \ReflectionClass('\App\Boletos\Contracts\Boleto\Boleto');
+        $r = new \ReflectionClass('\Paulinhoajr\Boletos\Contracts\Boleto\Boleto');
         $constantNames = $r->getConstants();
         $bancosDisponiveis = [];
         foreach ($constantNames as $constantName => $codigoBanco) {

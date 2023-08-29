@@ -2,7 +2,7 @@
 
 namespace Paulinhoajr\Boletos;
 
-use App\Boletos\Contracts\Pessoa as PessoaContract;
+use Paulinhoajr\Boletos\Contracts\Pessoa as PessoaContract;
 
 class Pessoa implements PessoaContract
 {

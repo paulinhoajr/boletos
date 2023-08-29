@@ -4,7 +4,7 @@ namespace Paulinhoajr\Boletos;
 
 use Carbon\Carbon;
 use Illuminate\Http\UploadedFile;
-use App\Boletos\Contracts\Boleto\Boleto as BoletoContract;
+use Paulinhoajr\Boletos\Contracts\Boleto\Boleto as BoletoContract;
 
 /**
  * Class Util
@@ -13,7 +13,7 @@ use App\Boletos\Contracts\Boleto\Boleto as BoletoContract;
  * @TODO validar processar
  * @TODO validar float nos numeros
  *
- * @package App\Boletos
+ * @package Paulinhoajr\Boletos
  */
 final class Util
 {
@@ -1003,7 +1003,7 @@ final class Util
      */
     public static function addPessoa(&$property, $obj)
     {
-        if (is_subclass_of($obj, 'App\\Boletos\\Contracts\\Pessoa')) {
+        if (is_subclass_of($obj, 'Paulinhoajr\\Boletos\\Contracts\\Pessoa')) {
             $property = $obj;
             return $obj;
         } elseif (is_array($obj)) {
